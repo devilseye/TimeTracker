@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devilseye.android.timetracker.DatePickersActivity">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_filter"
+        android:id="@+id/updateButton"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateButton"
+        android:id="@+id/periodFrom"
+        android:textSize="25sp"
+        android:text="@string/from" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateStartPicker"
+        android:layout_below="@+id/periodFrom"
+        android:layout_centerInParent="true"
+        android:calendarViewShown="false"
+        android:layout_centerHorizontal="true"
+        android:spinnersShown="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateStartPicker"
+        android:id="@+id/periodTo"
+        android:textSize="25sp"
+        android:text="@string/to" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateEndPicker"
+        android:layout_centerInParent="true"
+        android:calendarViewShown="false"
+        android:layout_below="@+id/periodTo" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="title_activity_add_record">Add new record</string>
+
+    <string name="action_add">Add record</string>
+    <string name="action_categories">Categories</string>
+    <string name="action_stats_frequent">Most frequent activities</string>
+    <string name="action_stats_longest">Longest activities</string>
+    <string name="action_save_record">Save</string>
+    <string name="action_add_photo">Add photo</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add_category">Add category</string>
+    <string name="action_category_stats">Categories statistics</string>
+    <string name="action_category_diagram">Diagram</string>
+
+    <string name="errorNoApp">No apps for this action!</string>
+    <string name="enter_category">Enter category</string>
+
+    <string name="record_id">ID: </string>
+    <string name="description">Description</string>
+    <string name="deleted">Deleted: </string>
+    <string name="dateStart">Begin: </string>
+    <string name="dateEnd">End: </string>
+    <string name="duration">Duration: </string>
+    <string name="mins">mins</string>
+    <string name="activities">activities</string>
+
+    <string name="choose_category">Choose category:</string>
+    <string name="choose_description">Description:</string>
+    <string name="choose_dateStart">Enter date of beginning:</string>
+    <string name="choose_timeStart">Enter time of beginning:</string>
+    <string name="choose_dateEnd">Enter date of ending:</string>
+    <string name="choose_timeEnd">Enter time of ending:</string>
+    <string name="title_activity_record">RecordActivity</string>
+
+    <string name="title_activity_category">Categories</string>
+    <string name="category">Category</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="title_activity_date_pickers">Enter period</string>
+
+    <string name="action_send_data">Accept</string>
+    <string name="update_filter">Reset filter!</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="title_activity_choose_categories">Choose categories</string>
+
+    <string name="diagram_title">Categories diagram</string>
+    <string name="diagram_desc">Time of all categories</string>
+
+    <string name="sorry">Sorry! Nothing to show...</string>
+
+</resources>
